@@ -7,12 +7,6 @@ The `NeuralNet` class contains a fully connected, feed-forward artificial neural
 
 ## Importing
 
-### Swift Package Manager
-SPM makes it easy to import the package into your own project. Just add this line to the dependencies in `package.swift`:
-```swift
-.Package(url: "https://github.com/Swift-AI/NeuralNet.git", majorVersion: 0, minor: 3)
-```
-
 ### Manually
 Since iOS and Cocoa applications aren't supported by SPM yet, you may need to import the package manually. To do this, simply drag and drop the files from `Sources` into your project.
 
